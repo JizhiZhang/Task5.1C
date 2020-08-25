@@ -1,0 +1,1 @@
+The .html files are in the "public" folder.
