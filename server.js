@@ -201,59 +201,7 @@ app.post('/register', (req, res)=>{
             })
         }
     })
-    
-    //Stop the email function of 6.1P for this task5.1C
-
-    // console.log(firstName, lastName, email)
-    // const data = {
-    //     members:[{
-    //         email_address: email,
-    //         status: "subscribed",
-    //         merge_fields:{
-    //             // FNAME and LNAME are named on the mailchimp website
-    //             FNAME: firstName,
-    //             LNAME: lastName
-    //         }
-    //     }]
-    // }
-
-    // // mailchimp only accessible json
-    // // define json
-    // // convert "data" to json
-    // // create the json "data"
-    // jsonData = JSON.stringify(data)
-
-    // const apiKey = "4d7a3d383e5ffbe14117bc15d102d690-us17"
-    // // const list_id = "60fe224c14"
-
-    // // define url and options
-    // const url = "https://us17.api.mailchimp.com/3.0/lists/60fe224c14"
-    // const options={
-    //     method:"POST",
-    //     auth:"azi:4d7a3d383e5ffbe14117bc15d102d690-us17"
-    // }
-
-    // const request = https.request(url, options, (response)=>{
-    //     response.on("data", (data)=>{
-    //         console.log(JSON.parse(data))
-    //     })
-    // })
-    
-    // request.write(jsonData)
-    // request.end()
-
-    // console.log(firstName, lastName, email)
-
-    // user.save(function(error){
-    //     if(error){
-    //         // res.send("Error!")
-    //         console.log("Error!")
-    //     }
-    //     else{
-    //         res.redirect("/success")
-    //     }
-    // })
-    
+      
 })
 
 app.get("/success", (req, res) => {
